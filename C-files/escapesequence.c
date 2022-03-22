@@ -20,8 +20,15 @@ int main()
 
   // creates an evenly spacing between the numbers. Tab between the numbers.
   printf("1\t2\t3\t4\t5\n");
-  
+
   // Creating a grid as a result of combining the two escape sequence
-  printf("1\t2\t3\n4\t5\t6\n7\t8\t9");
+  printf("1\t2\t3\n4\t5\t6\n7\t8\t9\n");
+
+  // To display quotes in C, we use backslash inside the original quotes. i.e
+  // This shows double quotes. ""
+  printf("\"I like Pizza!\" - Wiz Mooher\n");
+
+  // This shows single quotes ''
+  printf("\'I like Hamburger!\' - Muhabeid\n");
   return 0;
 }
