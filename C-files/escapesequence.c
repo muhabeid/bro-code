@@ -19,6 +19,9 @@ int main()
   printf("I\nlike\npizza\n");
 
   // creates an evenly spacing between the numbers. Tab between the numbers.
-  printf("1\t2\t3\t4\t5");
+  printf("1\t2\t3\t4\t5\n");
+  
+  // Creating a grid as a result of combining the two escape sequence
+  printf("1\t2\t3\n4\t5\t6\n7\t8\t9");
   return 0;
 }
