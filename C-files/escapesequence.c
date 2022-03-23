@@ -30,5 +30,8 @@ int main()
 
   // This shows single quotes ''
   printf("\'I like Hamburger!\' - Muhabeid\n");
+
+  // To display backslashes, we use double backslashes and input a text in between them 
+  printf("\\I like Samosa\\ - Mwabedi");
   return 0;
 }
