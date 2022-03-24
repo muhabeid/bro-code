@@ -64,8 +64,8 @@ int main()
   printf("%d\n", i);  // unsigned short int
   printf("%d\n", j);  // int
   printf("%u\n", k);  // unsigned int
-  printf("%lld\n", l);
-  printf("%llu\n", m);
+  printf("%lld\n", l);  // signed long long int 
+  printf("%llu\n", m);  // unsigned long long int
 
   return 0;
 }
